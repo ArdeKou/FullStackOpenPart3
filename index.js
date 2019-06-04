@@ -50,7 +50,7 @@ app.get('/', (request, response) => {
 
 // Api root
 app.get('/api', (request, response) => {
-    response.send(`<h1>Api root, use <a href="http://localhost:${PORT}/api/persons">/api/persons</a> for resources</h1>`)
+    response.send(`<h1>Api root, use <a href="/api/persons">/api/persons</a> for resources</h1>`)
 })
 
 // Get all
